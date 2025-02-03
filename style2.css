@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gainsboro;
+    background-size:contain;
+    background-position: center;
+  }
+
+  .navbar {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+  .container {
+    max-width: 880px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .character-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .character-info img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .stats-table {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  
+  
+  .stats-table td {
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .stats-table td:last-child {
+    border-bottom: none;
+  }
+  
+  h2 {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 16px;
+  }
+  
+  
